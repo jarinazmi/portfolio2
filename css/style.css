@@ -1,0 +1,180 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.title{
+	font-weight: bolder;
+	color: white;
+	margin-bottom: 0;
+}
+
+.hr-line{
+	border: 5px dotted white;
+	border-bottom: none;
+	width: 50px;
+}
+
+.navbar{
+	padding: 1% 7%;
+/*	padding-left: 5%;
+	padding-right: 5%;*/
+	background: rgba(0,0,0,0.3);
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-brand{
+	font-size: 45px;
+	/*margin-top: 38px;
+	margin-bottom: 38px;*/
+	color: blue !important;
+}
+
+.header .nav-link{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 16px;
+	margin-right: 16px;
+
+}
+
+.header .nav-link{
+	color: white !important;
+	border-radius: 5px;
+	transition: .4s;
+}
+
+.header .nav-link:hover{
+	background-color: #2980b9;
+	color: white;
+	transform: scale(1.1);
+}
+
+
+
+header{
+	background: url(../img/pexels-sharon-mccutcheon-1191710.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+/*	padding-top: 1074px;
+	padding-bottom: 60px;*/
+}
+
+.banner-container{
+	height: 100vh;
+}
+
+.banner-contents{
+	background: rgb(2, 110, 100,0.5);
+	padding: 5% 5%;
+
+}
+
+.banner-contents h1{
+	font-family: 'Lobster Two', cursive;	
+}
+
+/*service section starts here*/
+#service-section{
+	background: #b8de6f;
+	padding-top: 114px;
+	padding-bottom: 114px;
+}
+
+
+.features-col{
+	border: 1px solid #120078;
+	padding: 15px;
+	border-radius: 5px;
+	margin: 20px 0;
+	transition: .4s;
+}
+
+.features-col:hover{
+	transform: scale(1.1);
+	box-shadow: 2px 6px 5px black;
+}
+
+.icon-style{
+	background: #d35d6e;
+	color: white;
+	padding: 15px;
+	margin: 5px 0;
+}
+/*service section ends here*/
+
+/*skill section starts here*/
+#skill-section{
+	/*background: #ff8585;*/
+	padding: 5% 10%;
+}
+
+#skill-section .hr-line{
+	border: 5px dotted black;
+	border-bottom: none;
+	width: 50px;
+}
+/*skill section ends here*/
+
+/*portfolio section starts here*/
+#portfolio-section{
+	background: #ffc85c;
+	padding: 5% 2%;
+}
+/*portfolio section ends here*/
+
+/*feedback section start*/
+#feedback{
+	padding: 5%;
+	background: #ea86b6;
+}
+
+#feedback img{
+	width: 200px;
+	height: auto;
+	font-size: 1.2rem;
+}
+
+.carousel-item{
+	text-align: center;
+	padding: 7% 15%;
+	font-style: italic;
+}
+/*feedback section end*/
+
+/*contact section*/
+#contact{
+	background: #98acf8;
+	padding: 5% 10%;
+}
+/*contact section ends here*/
+
+/*footer section starts here*/
+@media(max-width: 992px){
+	/*a.nav-link{
+		background: rgb(0,0,0,0.7);
+		color: yellow;
+
+	}*/
+	.sample{
+		margin-top: 20px;
+		padding-left: 70px;
+		padding-right: 70px;
+		background: rgb(0,0,0,0.7);
+		text-align: center;
+		transition: .4s;
+
+	}
+
+	.sample:hover{
+		transform: scale(1.1);
+		box-shadow: 2px 6px 5px black;
+	}
+
+}
+
+/*footer section ends here*/
